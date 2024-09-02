@@ -1,35 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "moretools",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "More Tools",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Ten Insomniak"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.teninsomniak.moretools.MoreTools"
+    ],
+    "client": [
+      "net.teninsomniak.moretools.MoreToolsClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "moretools.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.19",
     "fabric-api": "*",
-    "minecraft": "~1.19.4",
+    "minecraft": "~1.19.2",
     "java": ">=17"
   },
   "suggests": {
