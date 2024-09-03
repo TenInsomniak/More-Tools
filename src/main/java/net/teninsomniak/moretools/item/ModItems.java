@@ -11,6 +11,16 @@ public class ModItems {
 
     public static final Item WOODEN_SCYTHE = registerItem("wooden_scythe",
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item STONE_SCYTHE = registerItem("stone_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item IRON_SCYTHE = registerItem("iron_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item GOLD_SCYTHE = registerItem("gold_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
 
 

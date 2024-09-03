@@ -1,5 +1,10 @@
 {
   "item.moretools.wooden_scythe": "Wooden Scythe",
+  "item.moretools.stone_scythe": "Stone Scythe",
+  "item.moretools.iron_scythe": "Iron Scythe",
+  "item.moretools.gold_scythe": "Gold Scythe",
+  "item.moretools.diamond_scythe": "Diamond Scythe",
+  "item.moretools.netherite_scythe": "Netherite Scythe",
 
   "itemGroup.moretools.scythes": "Scythes"
 }
