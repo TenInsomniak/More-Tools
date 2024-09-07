@@ -2,6 +2,8 @@ package net.teninsomniak.moretools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 //import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterial;
 import net.teninsomniak.moretools.MoreTools;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -20,6 +22,8 @@ public class ModItems {
     public static final Item DIAMOND_SCYTHE = registerItem("diamond_scythe",
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
     public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item TEST_ITEM = registerItem("test_item",
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
 
