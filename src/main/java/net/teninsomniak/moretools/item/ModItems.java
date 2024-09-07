@@ -2,14 +2,15 @@ package net.teninsomniak.moretools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 //import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.ToolMaterials;
+import net.minecraft.tag.ItemTags;
 import net.teninsomniak.moretools.MoreTools;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
+
 
     public static final Item WOODEN_SCYTHE = registerItem("wooden_scythe",
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
@@ -23,8 +24,13 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
     public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe",
             new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+
+
     public static final Item TEST_ITEM = registerItem("test_item",
-            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+            new ScytheItem(ToolMaterials.WOOD),
+            ToolMaterials.WOOD.getAttackDamage(),
+            ToolMaterials.WOOD.getMiningSpeedMultiplier(),
+            ItemTags.PLANKS);
 
 
 
