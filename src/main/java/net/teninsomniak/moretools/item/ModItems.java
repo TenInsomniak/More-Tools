@@ -1,10 +1,7 @@
 package net.teninsomniak.moretools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-//import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ToolMaterials;
-import net.minecraft.tag.ItemTags;
 import net.teninsomniak.moretools.MoreTools;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
